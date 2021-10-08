@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#0B0B0B"
+    android:baselineAligned="false"
+    android:gravity="center|center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/bottom_zhenzhu_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bottom_zhenzhu_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/zhenzhu" />
+        <!--            tools:srcCompat="@drawable/Zhengzhou" />-->
+
+        <TextView
+            android:id="@+id/bottom_zhenzhu_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="珍珠"
+            android:textColor="#FBFBFB"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_chadong_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bottom_chadong_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/milktea1"
+            tools:srcCompat="@drawable/milktea1" />
+
+        <TextView
+            android:id="@+id/bottom_chadong_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="茶冻"
+            android:textColor="#FBFAFA"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_naigai_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bottom_naigai_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/milktea2"
+            tools:srcCompat="@drawable/milktea2" />
+
+        <TextView
+            android:id="@+id/bottom_naigai_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="奶盖"
+            android:textColor="#FBF8F8"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_buding_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bottom_buding_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/milktea3"
+            tools:srcCompat="@drawable/milktea3" />
+
+        <TextView
+            android:id="@+id/bottom_buding_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="布丁"
+            android:textColor="#FAF8F8"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>
