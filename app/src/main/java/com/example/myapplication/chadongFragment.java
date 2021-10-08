@@ -7,13 +7,13 @@ import android.view.ViewGroup;
 
 import android.app.Fragment;
 
-public class budingFragment extends Fragment {
-    public budingFragment(){
+public class chadongFragment extends Fragment {
+    public chadongFragment(){
 
     }
     @Override
     public View onCreateView( LayoutInflater inflater,  ViewGroup container,  Bundle savedInstanceState) {
 //        return super.onCreateView(inflater, container, savedInstanceState);
-        return inflater.inflate(R.layout.buding_fragment_wechat,container,false);
+        return inflater.inflate(R.layout.chadong_fragment_wechat,container,false);
     }
 }
