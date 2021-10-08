@@ -1,1 +1,2 @@
 # work1
+本项目是基于Andriod Studio建立仿微信APP的门户界面，通过Java语言编译的MainActivity主文件与五个Fragment文件，以及三个核心XML文件：bottem.xml,top.xml,acrivity_main.xml和五个fragment.xml文件相结合，制作出可切换页面的门户界面。
