@@ -17,7 +17,7 @@ import android.view.Window;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
+//#185.31.16.184 github.global.ssl.fastly.net
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
 
